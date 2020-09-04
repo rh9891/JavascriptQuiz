@@ -1,0 +1,31 @@
+h2 {
+    color: #cca8e9;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(195, 190, 240, 0.25);
+    background-color: #cadefc;
+}
+
+.choice-container:hover {
+    color: #cca8e9;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(204, 168, 233, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #cca8e9;
+    color: #cadefc;
+}
+
+.choice-text {
+    color: #cca8e9;
+    padding: 1.5rem;
+}
