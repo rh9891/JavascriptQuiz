@@ -43,10 +43,10 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
     console.log(availableQuestions);
-    getNewQuestions();
+    getNewQuestion();
 }
 
-getNewQuestions = () => {
+getNewQuestion = () => {
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
@@ -64,7 +64,13 @@ getNewQuestions = () => {
 
 choices.forEach(choice => {
     choice.addEventListener("click", event => {
-        console.log(event.target);
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedChoice = event.target;
+        const selectedAnswer = selectedChoice.dataset["number"];
+        console.log(selectedAnswer);
+        getNewQuestion();
     });
 });
 
