@@ -1,0 +1,41 @@
+/* Anything referenced with rems will be based off the approximate 10px from the root. */
+:root {
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+}
+
+/* If border is added to box, it will include the width of that border to the calculated size of the box. */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333
+}
+
+/* Default margin bottom. */
+h1, h2, h2, h4 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: cadetblue;
+    margin-bottom: 5rem;
+}
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
