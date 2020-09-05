@@ -30,3 +30,12 @@ h2 {
     padding: 1.5rem;
     width: 100%;
 }
+
+.correct {
+    background-color: #C5E9A8;
+}
+
+.incorrect {
+    background-color: #E9ABA8;
+
+}
