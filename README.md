@@ -49,7 +49,7 @@ THEN I can save my name and score.
 
 ## Preview of the Javascript Quiz
 
-![Javascript Quiz Landing Page]()
+![Javascript Quiz Landing Page](assets/images/javascriptQuizLandingPage.png)
 
 The following animation demonstrates the application functionality:
 
