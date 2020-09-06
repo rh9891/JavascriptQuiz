@@ -14,6 +14,9 @@
 
 ## Description
 
+As a web developer, completing coding assessments (which usually entails a combination of multiple-choice questions and interactive challenges) is a customary task. The Javascript Quiz is a coding quiz with 10 multiple-choice questions. The application is a fun and dynamic way to see how much you know, or don't know, about Javascript. You will get 10 points for each correct answer. (Maximum score is 100 points.) At the end of the quiz, your total score will be displayed and you will be given the opportunity to add your name to the high scores list. 
+
+The Javascript Quiz features dynamically updated HTML and CSS powered by Javascript. It also features a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
 ## User Story
 ~~~
