@@ -53,7 +53,9 @@ THEN I can save my name and score.
 
 The following animation demonstrates the application functionality:
 
-![Javascript Quiz Functionality Preview](assets/images/javascriptQuizFunctionalityPreview.gif)
+<p align="center">
+  <img src="assets/images/javascriptQuizFunctionalityPreview.gif">
+</p>
 
 ## Links
 - [Deployed Application](https://rh9891.github.io/JavascriptQuiz)
